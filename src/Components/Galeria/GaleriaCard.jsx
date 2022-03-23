@@ -78,7 +78,7 @@ function GaleriaCard() {
           </div>
         </div>
         <div className="consultanos">
-          <h3>¿Tenés un Envento para realizar?</h3>
+          <h3>¿Tenés un evento para realizar?</h3>
           <p>Consultanos y te respondemos!</p>
           <Link to={"contacto"}>
             <Button variant="secondary" className="button">
