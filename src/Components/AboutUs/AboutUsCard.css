@@ -108,14 +108,34 @@ span {
   .opinionUsuario {
     flex-basis: 100%;
   }
+
+  .comentarioUsuario {
+    font-size: 15px;
+    margin-right: -100px;
+    width: 100%;
+  }
   .opinionUsuarioB {
     flex-basis: 100%;
+  }
+  .comentarioUsuarioB {
+    font-size: 15px;
+    margin-right: -100px;
+    width: 100%;
   }
   .opinionUsuarioC {
     flex-basis: 100%;
     justify-content: flex-start;
   }
+  .comentarioUsuarioC {
+    font-size: 15px;
+    margin-right: -100px;
+    width: 100%;
+  }
   .p {
     font-size: 20px;
   }
+}
+
+.p {
+  text-align: justify;
 }
