@@ -21,7 +21,7 @@ function GaleriaCard() {
           <div className="eventoAContainer">
             <div className="columnaAFlex">
               <div>
-                <h2>Cumpleaños Infantiles</h2>
+                <h2 className="columnaAflexh2">Cumpleaños Infantiles</h2>
                 <p className="paragraphColumnaA">
                   Una excelente actividad tanto para chicos como chicas mayores
                   de 7 años, giran, chocan, se caen y se divierten. Todos aman
@@ -91,7 +91,9 @@ function GaleriaCard() {
           <div className="eventoAContainer">
             <div className="columnaAFlex">
               <div>
-                <h2 className="enventosAdultosTitle">Eventos Adultos</h2>
+                <h2 className="enventosAdultosTitle columnaAflexh2">
+                  Eventos Adultos
+                </h2>
                 <p className="paragraphColumnaA">
                   Cualquier motivo es bueno para organizar una tarde de juego
                   con burbujas. Despedida de fin de año, recibida de año,
