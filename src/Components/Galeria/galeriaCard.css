@@ -11,6 +11,7 @@
   background-image: url(/src/assets/cesped.jpg);
   position: relative;
   height: 1500px;
+  margin-bottom: 100px;
 }
 
 .galeriaContainer {
@@ -80,11 +81,10 @@ h2 {
 
 .galeriaTItle {
   color: white;
-  width: 45%;
+  width: 50%;
   text-align: center;
   margin-bottom: 50px;
   font-size: 40px;
-  padding-top: 50px;
 }
 
 .columnaAFlex {
@@ -100,8 +100,8 @@ h2 {
 }
 
 .button {
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
   float: none;
 }
 

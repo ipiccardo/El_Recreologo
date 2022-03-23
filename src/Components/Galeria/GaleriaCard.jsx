@@ -1,5 +1,6 @@
 import React from "react";
 import "./galeriaCard.css";
+import { Button } from "react-bootstrap";
 import imageTwo from "../../assets/galeria/imageTwo.jpg";
 import imageThree from "../../assets/galeria/imageThree.jpg";
 import imageFour from "../../assets/galeria/imageFour.jpg";
@@ -80,7 +81,9 @@ function GaleriaCard() {
           <h3>¿Tenés un Envento para realizar?</h3>
           <p>Consultanos y te respondemos!</p>
           <Link to={"contacto"}>
-            <button className="button">Consultar</button>
+            <Button variant="secondary" className="button">
+              Consultar
+            </Button>
           </Link>
         </div>
         <div className="eventaASection">

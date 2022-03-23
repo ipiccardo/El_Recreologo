@@ -29,7 +29,7 @@
 .hero {
   background-image: url(/src/assets/cesped.jpg);
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
   margin-top: -10px;
   margin-bottom: -10px;
 }
