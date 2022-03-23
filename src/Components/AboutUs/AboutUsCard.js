@@ -7,7 +7,7 @@ const AboutUsCard = () => {
     <div className="aboutUsCardContainer">
       <h2>¿Quienes somos?</h2>
       <div className="paragraph">
-        <p>
+        <p className="p">
           Somos una empresa joven dedicada a la creación y animación de eventos.
           Nuestro equipo cuenta con la experiencia para que tus eventos sean
           perfectos. Somos emprendedores, deportistas y dinámicos. Nos gusta
@@ -19,13 +19,13 @@ const AboutUsCard = () => {
       <h2>Preguntas Frecuentes</h2>
       <div className="preguntasContainer">
         <h3>Pregunta A</h3>
-        <p>Aca va la pregunta a</p>
+        <p className="p">Aca va la pregunta a</p>
         <h3>Pregunta b</h3>
-        <p>Aca va la pregunta a</p>
+        <p className="p">Aca va la pregunta a</p>
         <h3>Pregunta c</h3>
-        <p>Aca va la pregunta a</p>
+        <p className="p">Aca va la pregunta a</p>
         <h3>Pregunta d</h3>
-        <p>Aca va la pregunta a</p>
+        <p className="p">Aca va la pregunta a</p>
       </div>
       <hr />
 
@@ -35,7 +35,7 @@ const AboutUsCard = () => {
           <div className="logoUsuario">
             <img src={opImg} alt="opiniones Images"></img>
           </div>
-          <p className="comentarioUsuario">
+          <p className="comentarioUsuario p">
             Excelente lugar, muy buenas actividades para disfrutar, y la
             predisposición de los dueños es excelente <br />
             <span>Usuario</span>
@@ -45,7 +45,7 @@ const AboutUsCard = () => {
           <div className="logoUsuario">
             <img src={opImg} alt="opiniones Images"></img>
           </div>
-          <p className="comentarioUsuario">
+          <p className="comentarioUsuario p">
             Excelente lugar, muy buenas actividades para disfrutar, y la
             predisposición de los dueños es excelente <br />
             <span>Usuario</span>
@@ -55,7 +55,7 @@ const AboutUsCard = () => {
           <div className="logoUsuario">
             <img src={opImg} alt="opiniones Images"></img>
           </div>
-          <p className="comentarioUsuario">
+          <p className="comentarioUsuario p">
             Excelente lugar, muy buenas actividades para disfrutar, y la
             predisposición de los dueños es excelente <br />
             <span>Usuario</span>
