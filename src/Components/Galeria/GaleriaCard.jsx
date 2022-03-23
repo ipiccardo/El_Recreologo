@@ -15,7 +15,7 @@ function GaleriaCard() {
   return (
     <>
       <section className="galeriaSection">
-        <h2 className="galeriaTItle">Nuestros Eventos Realizados:</h2>
+        <h2 className="galeriaTItle">Nuestros Eventos:</h2>
         <div className="eventaASection">
           <div className="galeriaContainer"></div>
           <div className="eventoAContainer">
