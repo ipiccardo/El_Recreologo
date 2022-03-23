@@ -138,6 +138,9 @@ video {
 }
 
 @media (max-width: 800px) {
+  .cumpleañosInfantiles {
+    margin-top: -50px;
+  }
   .columnaAflexh2 {
     margin-left: 30px;
     margin-top: 50px;
@@ -152,7 +155,7 @@ video {
   }
 
   .eventaASection {
-    height: 2200px;
+    height: 2300px;
   }
   .eventoAContainer {
     flex-direction: column;
@@ -197,5 +200,23 @@ p {
   }
   .enventosAdultosTitle {
     padding-top: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .fotoColumnaA video {
+    height: 200px;
+  }
+  .eventaASection {
+    height: 1800px;
+  }
+  .cumpleañosInfantiles {
+    margin-top: -100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .galeriaSection {
+    margin-top: -100px;
   }
 }
