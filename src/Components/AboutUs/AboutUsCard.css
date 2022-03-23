@@ -1,0 +1,110 @@
+.aboutUsCardContainer {
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.preguntasContainer {
+  width: 80%;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.preguntasContainer p {
+  margin-left: 60px;
+}
+
+.opinionesContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.opinionUsuario {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 50%;
+}
+
+.opinionUsuarioB {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 50%;
+}
+
+.opinionUsuarioC {
+  display: flex;
+  justify-content: center;
+  flex-basis: 90%;
+}
+
+@media (max-width: 767px) {
+  .opinionUsuarioC {
+    flex-basis: 50%;
+  }
+}
+/* .logoUsuario {
+} */
+
+.logoUsuario img {
+  width: 300px;
+}
+
+.comentarioUsuario {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: -100px;
+}
+
+span {
+  font-weight: bold;
+}
+
+h2 {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.paragraph {
+  max-width: 1200px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 90%;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 759px) {
+  .opinionesContainer {
+    margin-left: -100px;
+  }
+  .opinionUsuario {
+    flex-basis: 100%;
+  }
+  .opinionUsuarioB {
+    flex-basis: 100%;
+  }
+  .opinionUsuarioC {
+    flex-basis: 100%;
+    justify-content: flex-start;
+  }
+}

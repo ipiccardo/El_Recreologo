@@ -1,0 +1,98 @@
+.bi {
+  font-size: 3rem;
+  color: black;
+}
+
+footer {
+  background-color: #f4e4fa;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  opacity: 0.8;
+}
+
+.redesContainer {
+  display: flex;
+}
+.redesContainer ul li {
+  margin: 5px;
+  list-style-type: none;
+}
+.redesContainer ul li a {
+  display: block;
+  padding: 0 10px;
+  /*transition: 0.2s;*/
+  transition: all 0.5s ease;
+}
+.redesContainer ul:hover a {
+  filter: blur(1px);
+}
+.redesContainer ul li a:hover {
+  transform: translate(45px) scale(1.25);
+  filter: none;
+  width: 200px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+
+.redesContainer ul li a .bi-facebook:hover {
+  filter: none;
+  width: 200px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+.redesContainer ul li a .bi-instagram:hover {
+  filter: none;
+  width: 250px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+.redesContainer ul li a .bi-whatsapp:hover {
+  filter: none;
+  width: 250px;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+
+.redesContainer ul li:hover a .bi {
+  color: white;
+  justify-content: flex-end;
+}
+.redesContainer ul li .bi:hover {
+  color: white;
+}
+.contenedorFooter {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .redesContainer ul li a:hover {
+    transform: translate(-3px) scale(1.05);
+    filter: none;
+    width: 120px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .contenedorFooter img {
+    width: 70%;
+  }
+  .redesContainer {
+    display: inline-block;
+  }
+  .redesContainer ul li a:hover {
+    transform: translate(-3px) scale(1.05);
+    filter: none;
+    width: 120px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+  }
+}

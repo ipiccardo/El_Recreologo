@@ -1,0 +1,194 @@
+.galeriaSection {
+  background-image: url(/src/assets/cesped.jpg);
+}
+
+.marginCenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eventaASection {
+  background-image: url(/src/assets/cesped.jpg);
+  position: relative;
+  height: 1500px;
+}
+
+.galeriaContainer {
+  opacity: 0.4;
+  filter: blur(5px);
+  background-color: black;
+  width: 100%;
+  border: 1px solid white;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  height: 100%;
+}
+
+.eventoAContainer {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  color: white;
+  margin-top: 35px;
+  height: 95%;
+}
+
+.eventoAContainer div {
+  flex-basis: 30%;
+}
+
+.fotoColumnaB {
+  margin-bottom: 20px;
+}
+
+.titulosGaleria {
+  color: white;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.consultanos {
+  color: white;
+  text-align: center;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid 2px white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* .fotoColumnaA {
+  height: 600px;
+} */
+
+.paragraphColumnaA {
+  text-align: justify;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.galeriaTItle {
+  color: white;
+  width: 45%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.columnaAFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.classContainer {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  padding-right: 10px;
+  padding-left: 10px;
+  float: none;
+}
+
+.button:hover {
+  transition: 1s;
+  transform: scale(1.25);
+  background-color: lightblue;
+}
+
+video {
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .columnaAFlex {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .paragraphColumnaA {
+    font-size: 25px;
+    text-align: justify;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .galeriaTItle {
+    font-size: 25px;
+  }
+
+  .eventoAContainer div {
+    flex-basis: 40%;
+  }
+}
+
+@media (max-width: 800px) {
+  .consultanos {
+    position: relative;
+    z-index: 50;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .eventaASection {
+    height: 2200px;
+  }
+  .eventoAContainer {
+    flex-direction: column;
+  }
+
+  .galeriaTItle {
+    width: 100%;
+  }
+
+  .paragraphColumnaA {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  video {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .widthHeightResponsive {
+    width: 80% !important;
+    height: 80% !important;
+  }
+}
+
+p {
+  font-size: 25px;
+}
+
+.columnaB {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 450px) {
+  .eventaASection {
+    height: 1800px;
+  }
+  .enventosAdultosTitle {
+    padding-top: 40px;
+  }
+}
