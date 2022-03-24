@@ -183,6 +183,9 @@ video {
     width: 80% !important;
     height: 80% !important;
   }
+  .columnaB {
+    margin-top: -140px;
+  }
 }
 
 p {
@@ -203,7 +206,7 @@ p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .fotoColumnaA video {
     height: 200px;
   }
