@@ -20,7 +20,7 @@ function GaleriaCard() {
           <div className="galeriaContainer"></div>
           <div className="eventoAContainer">
             <div className="columnaAFlex">
-              <div className="cumpleañosInfantiles">
+              <div>
                 <h2 className="columnaAflexh2">Cumpleaños Infantiles</h2>
                 <p className="paragraphColumnaA">
                   Una excelente actividad tanto para chicos como chicas mayores
@@ -90,7 +90,7 @@ function GaleriaCard() {
           <div className="galeriaContainer"></div>
           <div className="eventoAContainer">
             <div className="columnaAFlex">
-              <div className="cumpleañosInfantiles">
+              <div>
                 <h2 className="enventosAdultosTitle columnaAflexh2">
                   Eventos Adultos
                 </h2>

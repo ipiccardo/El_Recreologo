@@ -1,42 +1,50 @@
-@media (max-width: 1600px) {
+@media (max-width: 2000px) {
   .contenedorPrincipal {
     display: flex;
     flex-wrap: wrap;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
-
   .sectionContainer {
     background-image: url("../../assets//cesped.jpg");
+
     color: white;
     width: 100%;
-    height: 300px;
+    height: 350px;
     box-shadow: 6px 20px 10px black;
     display: flex;
     color: white;
   }
+  .sectionContainer h1,
+  h3 {
+    text-shadow: 0.1em 0.1em 0.05em black;
+  }
 
   .sectionContainerDos {
     background-image: url("../../assets/04.jpg");
+    object-fit: fill;
     border-radius: 5px;
     padding: 13px;
     width: 100%;
-    height: 350px;
+    height: 400px;
     background-size: cover;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
-    box-shadow: 6px 20px 10px black;
+    box-shadow: 6px 20px 10px white;
     min-width: 250px;
   }
+  .sectionContainerDos h1 {
+    text-shadow: 0.1em 0.1em 0.05em black;
+  }
   .sectionContainerDos p {
-    background-color: black;
-    opacity: 0.5;
-    font-weight: 500;
+    text-shadow: 0.1em 0.1em 0.05em black;
+    font-size: 23px;
   }
 
   .sectionContainerTres {
     background-image: url("../../assets/cardTwo.JPG");
+    object-fit: fill;
     border-radius: 5px;
     padding: 13px;
     width: 100%;
@@ -46,19 +54,22 @@
     color: white;
     background-position: center;
     text-align: center;
-    box-shadow: 6px 20px 10px black;
+    box-shadow: 6px 20px 10px white;
     min-width: 250px;
   }
+
   .sectionContainerTres p {
     font-size: 18px;
-    background-color: black;
-    opacity: 0.6;
     font-weight: 500;
+    text-shadow: 0.1em 0.1em 0.05em black;
+  }
+  .sectionContainerTres h1 {
+    text-shadow: 0.1em 0.1em 0.05em black;
   }
 
   .sectionContainerCuatro {
     background-image: url("../../assets/cardThree.jpg");
-
+    object-fit: fill;
     border-radius: 5px;
     padding: 13px;
     width: 100%;
@@ -68,19 +79,19 @@
     color: white;
     background-position: center;
     text-align: right;
-    box-shadow: 6px 10px 10px black;
+    box-shadow: 6px 5px 5px black;
     min-width: 250px;
   }
   .sectionContainerCuatro h1 {
     text-align: right;
     font-size: 45px;
     line-height: 300px;
+    text-shadow: 0.1em 0.1em 0.05em black;
   }
   .sectionContainerCuatro p {
     margin-top: 35px;
     font-size: 22px;
-    background-color: black;
-    opacity: 0.7;
+    text-shadow: 0.1em 0.1em 0.05em black;
     font-weight: 500;
   }
   .contenedorExterior {
@@ -112,6 +123,26 @@
     border: 3px solid white;
     background-color: green;
   }
+  h4 {
+    margin: 10px;
+  }
+  .containerAccordion section a {
+    text-shadow: 0.1em 0.1em 0.05em black;
+  }
+  .containerAccordion section p {
+    overflow: hidden;
+    max-height: 0;
+  }
+  .containerAccordion section:target p {
+    max-height: 120px;
+    padding: 10px;
+  }
+  .containerAccordion section a:hover {
+    transition: 1s;
+    transform: scale(1.25);
+    color: lightblue;
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -123,7 +154,6 @@
   }
   .sectionContainer {
     height: 400px;
-    background-color: black;
   }
   button {
     float: right;
@@ -136,15 +166,15 @@
     border-radius: 25px;
   }
   .sectionContainerDos {
-    height: 450px;
+    height: 400px;
     padding: 5px;
     font-size: 10px;
     text-align: center;
+    margin: 2px 0 2px 0;
   }
   .sectionContainerDos p {
-    font-size: 16px;
-    background-color: black;
-    opacity: 0.6;
+    font-size: 14px;
+    text-shadow: 0.1em 0.1em 0.05em black;
   }
   .sectionContainerDos h1 {
     font-size: 30px;
@@ -152,26 +182,32 @@
   .sectionContainerTres {
     height: 600px;
     text-align: center;
+    margin: 2px 0 2px 0;
   }
   .sectionContainerTres p {
-    font-size: 14px;
-    background-color: black;
-    opacity: 0.6;
+    font-size: 11px;
+    text-shadow: 0.1em 0.1em 0.05em black;
   }
   .sectionContainerTres h1 {
     font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.05em black;
+  }
+  .sectionContainerTres h4 {
+    text-shadow: 0.1em 0.1em 0.05em black;
+    font-size: 16px;
   }
   .sectionContainerCuatro {
     height: 600px;
     padding: 5px;
     text-align: center;
+    margin: 2px 0 2px 0;
   }
   .sectionContainerCuatro p {
     font-size: 18px;
     line-height: normal;
     padding: 20px;
-    background-color: black;
-    opacity: 0.6;
+    font-size: 17px;
+    text-shadow: 0.1em 0.1em 0.05em black;
     position: relative;
     top: 35px;
   }
@@ -181,5 +217,8 @@
     font-size: 40px;
     position: relative;
     top: 60px;
+  }
+  h4 {
+    margin: 10px;
   }
 }

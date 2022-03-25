@@ -1,4 +1,13 @@
-@media screen and (max-width: 1600px) {
+.list-icons {
+  list-style: none;
+}
+
+.PasosContainer {
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1700px) {
   .RedesContainer {
     background-image: url("../../assets/cesped.jpg");
     color: white;
@@ -8,17 +17,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 1px 2px rgb(85, 84, 84);
   }
   .RedesContainer h1 {
     font-size: 45px;
     padding: 20px;
+    text-shadow: 0.1em 0.1em 0.05em black;
   }
 
   .PasosContainer {
     background-image: url("../../assets/Logomin.png");
-    opacity: 0.8;
+    opacity: 0.9;
     filter: alpha(opacity=40);
-    background-color: #f4e4fa;
+    background-color: white;
     color: black;
     border: 1px solid white;
     background-repeat: no-repeat;
@@ -26,8 +37,8 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 5px;
     background-size: 5rem;
+    box-shadow: 2px 1px 2px rgb(85, 84, 84);
   }
 
   .list-icons {
@@ -37,6 +48,7 @@
   }
   .redesSociales ul li a i {
     color: white;
+    text-shadow: 0.1em 0.1em 0.05em black;
   }
   .redesSociales ul li {
     list-style-type: none;
@@ -47,7 +59,8 @@
   .comoContactar {
     margin: 0 auto;
     padding: 30px;
-    width: 90%;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
   }
 }
 
@@ -65,60 +78,3 @@
     font-size: 30px;
   }
 }
-
-/*
-@media screen and (max-width: 900px) {
-  .pasosTexto {
-    margin: 0 auto;
-    text-align: center;
-    width: 70%;
-    justify-content: center;
-    font-size: 15px;
-    color: black;
-  }
-  h1,
-  h2 {
-    text-align: center;
-  }
-  .PasosContainer {
-    background-color: #f4e4fa;
-    background-size: 5rem;
-    font-size: 3.5vh;
-  }
-  .contenedorFooter {
-    height: auto;
-  }
-  .RedesContainer h1 {
-    font-size: 25px;
-    text-align: center;
-  }
-}
-@media (max-width: 670px) {
-  .pasosTexto {
-    font-size: 12px;
-    font-weight: bold;
-    width: 100%;
-  }
-  h1 {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  h2 {
-    text-align: center;
-    font-size: 15px;
-    font-weight: 900;
-  }
-}
-@media (max-width: 1600px) and (min-width: 900px) {
-  .PasosContainer {
-    background-size: 10rem;
-  }
-  .PasosContainer h2 {
-    font-size: 30px;
-    font-weight: 900;
-  }
-  .PasosContainer h2 {
-    font-size: 20px;
-  }
-}*/

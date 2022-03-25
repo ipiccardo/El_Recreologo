@@ -25,30 +25,29 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-left: auto;
+  margin-left: -50px;
   margin-right: auto;
   flex-wrap: wrap;
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-right: 10%;
 }
 
 .opinionUsuario {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-basis: 50%;
 }
 
 .opinionUsuarioB {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-basis: 50%;
 }
 
 .opinionUsuarioC {
   display: flex;
   justify-content: center;
-  flex-basis: 100%;
+  flex-basis: 90%;
 }
 
 @media (max-width: 767px) {
@@ -64,7 +63,7 @@
 }
 
 .comentarioUsuario {
-  width: 50%;
+  width: 100%;
   margin-top: 40px;
   margin-left: -100px;
 }
@@ -103,9 +102,6 @@ span {
 }
 
 @media (max-width: 759px) {
-  .opinionesContainer {
-    margin-left: -100px;
-  }
   .opinionUsuario {
     flex-basis: 100%;
   }
@@ -139,31 +135,44 @@ span {
 
 .p {
   text-align: justify;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
-@media (max-width: 850px) {
-  .opinionUsuario {
-    flex-direction: column;
-  }
-  .logoUsuario {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .comentarioUsuario {
-    font-size: 25px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -50px;
-    width: 90%;
-  }
+@media (max-width: 800px) {
   .opinionesContainer {
-    margin-left: 0px;
-    padding-right: 0px;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  .opinionUsuario {
+    justify-content: center;
+    flex-basis: 100%;
   }
   .opinionUsuarioB {
-    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
   }
   .opinionUsuarioC {
-    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+    margin-top: -80px;
   }
+  .comentarioUsuario {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .opinionUsuarioC {
+    display: flex;
+    width: 100%;
+    margin-left: -50px;
+  }
+}
+
+.maxWidth {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Button, Col, Form, Row } from "react-bootstrap";
+import { Alert, Button, Col, Form, Row } from "react-bootstrap";
 import "./styles.css";
 
 const ContactForm = () => {
+  const [show, setShow] = useState(false);
+
+  if (show) {
+    return (
+      <Alert show={show} variant="success">
+        <Alert.Heading>¡GRACIAS!</Alert.Heading>
+        <p>
+         ¡¡¡ Pronto nos pondremos en contacto con vos!!!
+        </p>
+        <hr />
+        <div className="d-flex justify-content-end">
+          <Button onClick={() => setShow(false)} variant="outline-success">
+            Volver 
+          </Button>
+        </div>
+      </Alert>
+    );
+  }
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -58,7 +76,11 @@ const ContactForm = () => {
             />
           </Form.Group>
         </Row>
-        <Button type="submit" className="buttonForm">
+        <Button
+          type="submit"
+          className="buttonForm"
+          onClick={() => setShow(true)}
+        >
           ENVIAR
         </Button>
       </Form>

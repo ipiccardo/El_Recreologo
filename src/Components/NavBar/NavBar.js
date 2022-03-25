@@ -17,6 +17,9 @@ const hero = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto navBar">
                 <Nav.Link>
+                  <NavLink to={"home"}>Home</NavLink>
+                </Nav.Link>
+                <Nav.Link>
                   <NavLink to={"galeria"}>Galeria</NavLink>
                 </Nav.Link>
                 <Nav.Link>
