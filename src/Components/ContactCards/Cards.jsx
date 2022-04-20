@@ -42,6 +42,11 @@ const Cards = () => {
                 <div className="redesSociales">
                   <ul className="list-icons">
                     <li>
+                      <a href="https://api.whatsapp.com/send?phone=+1123941289">
+                        <i class="bi bi-whatsapp"></i>
+                      </a>
+                    </li>
+                    <li>
                       <a href="https://www.facebook.com/elrecreologo/">
                         <i class="bi bi-facebook"></i>
                       </a>
@@ -49,11 +54,6 @@ const Cards = () => {
                     <li>
                       <a href="https://www.instagram.com/elrecreologo/">
                         <i class="bi bi-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://api.whatsapp.com/send?phone=+1123941289">
-                        <i class="bi bi-whatsapp"></i>
                       </a>
                     </li>
                   </ul>

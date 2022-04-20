@@ -15,7 +15,7 @@ const CarouselHome = () => {
             className="d-block w-100"
             src={slideOne}
             alt="First slide"
-            height="500"
+            height="550"
           />
           <Carousel.Caption>
             <div className="container">
@@ -30,7 +30,7 @@ const CarouselHome = () => {
             className="d-block w-100"
             src={slideTwo}
             alt="Second slide"
-            height="500"
+            height="550"
           />
           <Carousel.Caption>
             <div className="container">
@@ -45,7 +45,7 @@ const CarouselHome = () => {
             className="d-block w-100"
             src={slideThree}
             alt="Third slide"
-            height="500"
+            height="550"
           />
           <Carousel.Caption>
             <div className="container">

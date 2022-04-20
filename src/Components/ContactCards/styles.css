@@ -1,12 +1,3 @@
-.list-icons {
-  list-style: none;
-}
-
-.PasosContainer {
-  padding-top: 50px;
-  margin-top: 20px;
-}
-
 @media screen and (max-width: 1700px) {
   .RedesContainer {
     background-image: url("../../assets/cesped.jpg");
@@ -77,4 +68,14 @@
   .RedesContainer h1 {
     font-size: 30px;
   }
+  .redesSociales ul li a i{
+    font-size: 3rem;
+  }
+  .redesSociales ul li a i:hover{
+    transition: 1s;
+    transform: scale(1.25);
+    color: lightblue;
+    font-size: 4rem;
+  }
 }
+

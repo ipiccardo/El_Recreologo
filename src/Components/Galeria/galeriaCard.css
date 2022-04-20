@@ -10,7 +10,7 @@
 .eventaASection {
   background-image: url(/src/assets/cesped.jpg);
   position: relative;
-  height: 1500px;
+  height: 1100px;
 }
 
 .galeriaContainer {
@@ -66,10 +66,6 @@ h2 {
   margin-top: 10%;
   margin-bottom: 10%;
 }
-
-/* .fotoColumnaA {
-  height: 600px;
-} */
 
 .paragraphColumnaA {
   text-align: justify;
@@ -190,12 +186,18 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 600px) {
+  .eventaASection {
+    height: 1850px;
+  }
+}
 
 @media (max-width: 450px) {
   .eventaASection {
-    height: 1875px;
+    height: 1600px;
   }
   .enventosAdultosTitle {
     padding-top: 40px;
   }
 }
+

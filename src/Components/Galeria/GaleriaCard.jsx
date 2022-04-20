@@ -36,8 +36,6 @@ function GaleriaCard() {
               <div>
                 <div className="fotoColumnaA">
                   <video
-                    height="500"
-                    width="400"
                     loop
                     autoPlay
                     muted
@@ -55,7 +53,6 @@ function GaleriaCard() {
                   className="d-block w-100 widthHeightResponsive marginCenter"
                   src={imageTwo}
                   alt="First slide"
-                  height="450"
                 />
               </div>
               <div className="fotoColumnaB">
@@ -63,7 +60,6 @@ function GaleriaCard() {
                   className="d-block w-100 widthHeightResponsive marginCenter"
                   src={imageThree}
                   alt="First slide"
-                  height="450"
                 />
               </div>
               <div>
@@ -71,7 +67,6 @@ function GaleriaCard() {
                   className="d-block w-100 widthHeightResponsive marginCenter"
                   src={imageFour}
                   alt="First slide"
-                  height="450"
                 />
               </div>
             </div>
@@ -110,8 +105,6 @@ function GaleriaCard() {
               <div>
                 <div className="fotoColumnaA">
                   <video
-                    height="500"
-                    width="400"
                     loop
                     autoPlay
                     muted
@@ -129,7 +122,6 @@ function GaleriaCard() {
                   className="d-block w-100 widthHeightResponsive marginCenter"
                   src={adultsOne}
                   alt="First slide"
-                  height="450"
                 />
               </div>
               <div className="fotoColumnaB">
@@ -137,7 +129,6 @@ function GaleriaCard() {
                   className="d-block w-100 widthHeightResponsive marginCenter"
                   src={adultsTwo}
                   alt="First slide"
-                  height="450"
                 />
               </div>
               <div>
@@ -145,7 +136,6 @@ function GaleriaCard() {
                   className="d-block w-100 widthHeightResponsive marginCenter"
                   src={adultsThree}
                   alt="First slide"
-                  height="450"
                 />
               </div>
             </div>
